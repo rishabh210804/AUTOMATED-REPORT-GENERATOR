@@ -4,7 +4,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from datetime import datetime
 
-# Step 1: Read data from CSV
+#  Read data from CSV
 def read_data(file_path):
     try:
         data = pd.read_csv(file_path)
@@ -13,12 +13,12 @@ def read_data(file_path):
         print(f"Error reading file: {e}")
         return None
 
-# Step 2: Analyze data
+# Analyze data
 def analyze_data(data):
     summary = data.describe(include='all')
     return summary
 
-# Step 3: Generate PDF report
+# Generate PDF report
 def generate_pdf_report(data_summary, output_path):
     c = canvas.Canvas(output_path, pagesize=A4)
     width, height = A4
