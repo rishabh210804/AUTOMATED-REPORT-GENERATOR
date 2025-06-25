@@ -55,3 +55,6 @@ if __name__ == "__main__":
         summary = analyze_data(df)
         generate_pdf_report(summary, output_pdf)
         print(f"Report generated: {output_pdf}")
+
+OUTPUT
+[sample_report.pdf](https://github.com/user-attachments/files/20908238/sample_report.pdf)
