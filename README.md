@@ -1,4 +1,4 @@
-AUTOMATED-REPORT-GENERATOR
+# AUTOMATED-REPORT-GENERATOR
 
 COMPANY: CODTECH IT SOLUTIONS
 
@@ -12,7 +12,7 @@ DURATION: 4 WEEEKS
 
 MENTOR: NEELA SANTOSH
 
-TASK 2 - Automated Report Generation using Python
+# TASK 2 - Automated Report Generation using Python
 
 The objective of this task is to design and develop an automated report generation system using Python programming that reads data from a structured file (such as CSV), performs basic data analysis, and generates a well-formatted PDF report using libraries such as ReportLab or FPDF. This task aims to simulate real-world reporting systems used in business analytics, data science, and automation processes where data must be quickly analyzed and presented in a readable, professional format without manual intervention.
 
@@ -46,5 +46,5 @@ Moreover, this task prepares students and professionals to deal with real-world 
 
 In conclusion, the Automated Report Generation task combines data analysis and document automation to create a robust solution for repetitive, data-centric reporting needs. It leverages the power of Python to streamline processes, reduce manual effort, and deliver consistent and accurate results. The task not only strengthens programming and data handling skills but also enhances understanding of automation practices that are widely used in the tech industry.
        
-OUTPUT
+# OUTPUT
 [sample_report.pdf](https://github.com/user-attachments/files/20908238/sample_report.pdf)
